@@ -1,0 +1,322 @@
+[
+    {
+        "OrderId": "0018a729-0000-0000-0000-000000000000",
+        "Partner": null,
+        "Field": {
+            "Id": "0016cc0f-0000-0000-0000-000000000000",
+            "Name": "Home Place",
+            "Wkt": "MULTIPOLYGON(((-98.4152612578899 38.3330162302598,-98.406334751172 38.33304973323,-98.406248920488 38.328303010169,-98.40766512685 38.328336675966,-98.40766512685 38.326855366093,-98.408437603048 38.325778030807,-98.408523433731 38.320593130775,-98.415304058119 38.320559461381,-98.4152612578899 38.3330162302598)),((-98.4152612578899 38.3330162302598,-98.415304058119 38.333016069622,-98.415261142777 38.33304973323,-98.4152612578899 38.3330162302598)))",
+            "Area": 232.3,
+            "State": "KS",
+            "County": "Rice",
+            "CivilTownship": "Raymond",
+            "Plss": "20S 10W",
+            "Section": "10",
+            "AreaUnit": {
+                "Ordinal": 7,
+                "Name": "Acres",
+                "Symbol": "ac",
+                "Type": 2
+            },
+            "Crop": {
+                "Id": "00000031-0000-0000-0000-000000000000",
+                "Name": "Apples",
+                "PartnerId": null,
+                "IntegrationPartnerId": 0,
+                "CropStage": {
+                    "Id": 92,
+                    "Name": "Starch",
+                    "ShortName": null,
+                    "Ordinal": 0
+                }
+            },
+            "FieldEntranceWkt": [
+                null
+            ],
+            "Farm": {
+                "Id": "000b78fe-0000-0000-0000-000000000000",
+                "Name": "Ricker Farms"
+            },
+            "Grower": {
+                "Id": "000b78fd-0000-0000-0000-000000000000",
+                "Name": "Ricker",
+                "ContactName": null,
+                "Address": {
+                    "Address1": null,
+                    "Address2": null,
+                    "City": null,
+                    "State": null,
+                    "Country": null,
+                    "PostalCode": null,
+                    "County": null
+                },
+                "Email": null,
+                "Fax": null,
+                "Phone": null,
+                "Cell": null,
+                "PartnerCustomers": []
+            },
+            "PartnerBillingId": "",
+            "ZoneId": "003b22be-0000-0000-0000-000000000000",
+            "ZoneName": "MASTER"
+        },
+        "Status": 8,
+        "DispatchStatus": 0,
+        "Requester": {
+            "Id": "000b78d8-0000-0000-0000-000000000000",
+            "Name": "Surefire Ag",
+            "ContactName": null,
+            "Address": {
+                "Address1": "9904 KS-25",
+                "Address2": null,
+                "City": "Atwood",
+                "State": "KS",
+                "Country": null,
+                "PostalCode": "67730",
+                "County": null
+            },
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "Cell": null,
+            "PartnerCustomers": null
+        },
+        "ServiceProvider": {
+            "Id": "000b78d8-0000-0000-0000-000000000000",
+            "Name": "Surefire Ag",
+            "ContactName": null,
+            "Address": {
+                "Address1": "9904 KS-25",
+                "Address2": null,
+                "City": "Atwood",
+                "State": "KS",
+                "Country": null,
+                "PostalCode": "67730",
+                "County": null
+            },
+            "Email": null,
+            "Fax": null,
+            "Phone": null,
+            "Cell": null
+        },
+        "CreatedDateTime": "2019-07-01T12:13:24.981006",
+        "ModifiedDateTime": "2019-07-02T16:20:50",
+        "Notes": [
+            {
+                "User": null,
+                "Content": "Git 'r Dun",
+                "Type": 0,
+                "DateTime": "0001-01-01T00:00:00"
+            }
+        ],
+        "Source": "",
+        "Hold": false,
+        "Rei": "00:00:00",
+        "OrderExtendedData": {
+            "TaskId": "569225",
+            "ReferenceNumber": "1",
+            "OrderId": "1615657"
+        },
+        "OrderTags": null,
+        "Services": [
+            {
+                "Id": "00000000-0000-0000-0000-000000000000",
+                "Operation": {
+                    "Id": 1,
+                    "Type": 1,
+                    "Name": "Liquid Spray",
+                    "VariableRate": false,
+                    "DisplayName": "Ground Application (Liquid Spray - Flat)",
+                    "IsLiquidOperation": true,
+                    "Culture": "en-US"
+                },
+                "BillingStrategy": 0,
+                "Application": {
+                    "Window": "5.00:00:00",
+                    "DateTime": "2019-07-01T00:00:00",
+                    "WindRestrictionStartDegree": 0,
+                    "WindRestrictionEndDegree": 0
+                },
+                "Completions": [],
+                "ReleasedDateTime": "2019-07-02T15:41:02.611459",
+                "ScheduledDateTime": "2019-07-02T16:18:28.182127",
+                "StagingLocation": {
+                    "Id": 0,
+                    "Name": null
+                },
+                "Personnel": {
+                    "Id": 26541,
+                    "Name": "Dirk Ricker",
+                    "LicenseNum": null,
+                    "LicenseOwnerId": 0,
+                    "Code": "f1424523-b167-4015-b231-179b9c0fa41c"
+                },
+                "Equipment": {
+                    "Id": 0,
+                    "Name": null,
+                    "Description": null,
+                    "TachStart": 0,
+                    "TachStop": 0,
+                    "EngineTotalStarts": 0
+                },
+                "Mix": {
+                    "Products": [
+                        {
+                            "Id": "00548ea2-0000-0000-0000-000000000000",
+                            "ProductId": "000013e6-0000-0000-0000-000000000000",
+                            "ActiveIngredient": "Nutrient",
+                            "UnitPrice": 0,
+                            "BillingStrategy": 0,
+                            "Name": "Borosol 10%",
+                            "Density": {
+                                "Density": 11.096315,
+                                "Uom": {
+                                    "Ordinal": 62,
+                                    "Name": "Pounds/Gallon",
+                                    "Symbol": "lb/gal",
+                                    "Type": 10
+                                }
+                            },
+                            "PartnerProductId": null,
+                            "PartnerProductName": null,
+                            "ProductType": 10,
+                            "MatterState": 1,
+                            "IsCarrier": false,
+                            "Supplier": {
+                                "Id": "000b78d8-0000-0000-0000-000000000000",
+                                "Name": "Surefire Ag"
+                            },
+                            "Rate": {
+                                "Value": 10,
+                                "Measure": {
+                                    "Ordinal": 21,
+                                    "Name": "Quarts/Acres",
+                                    "Symbol": "qt/ac",
+                                    "Type": 7
+                                }
+                            },
+                            "Pests": [
+                                {
+                                    "Id": 4687,
+                                    "Name": "Acrobat Ants",
+                                    "Type": "Insect"
+                                }
+                            ],
+                            "BillingEntities": [
+                                {
+                                    "Id": "00752675-0000-0000-0000-000000000000",
+                                    "AccountId": "000b78fd-0000-0000-0000-000000000000",
+                                    "Name": "Ricker",
+                                    "PartnerAccounts": [],
+                                    "Split": 100
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "00548ea3-0000-0000-0000-000000000000",
+                            "ProductId": "0000170c-0000-0000-0000-000000000000",
+                            "ActiveIngredient": "Petroleum Hydrocarbons (light paraffinic distillate, odorless aliphatic petroleum solvent), Alkylphenol ethoxylate, tall oil fatty acid",
+                            "UnitPrice": 0,
+                            "BillingStrategy": 0,
+                            "Name": "Herbimax",
+                            "Density": {
+                                "Density": 0,
+                                "Uom": {
+                                    "Ordinal": 62,
+                                    "Name": "Pounds/Gallon",
+                                    "Symbol": "lb/gal",
+                                    "Type": 10
+                                }
+                            },
+                            "PartnerProductId": null,
+                            "PartnerProductName": null,
+                            "ProductType": 1,
+                            "MatterState": 1,
+                            "IsCarrier": false,
+                            "Supplier": {
+                                "Id": "000b78d8-0000-0000-0000-000000000000",
+                                "Name": "Surefire Ag"
+                            },
+                            "Rate": {
+                                "Value": 0.5,
+                                "Measure": {
+                                    "Ordinal": 22,
+                                    "Name": "Pints/Acres",
+                                    "Symbol": "pt/ac",
+                                    "Type": 7
+                                }
+                            },
+                            "Pests": [
+                                {
+                                    "Id": 17,
+                                    "Name": "Achemon Sphinx",
+                                    "Type": "Insect"
+                                }
+                            ],
+                            "BillingEntities": [
+                                {
+                                    "Id": "00752676-0000-0000-0000-000000000000",
+                                    "AccountId": "000b78fd-0000-0000-0000-000000000000",
+                                    "Name": "Ricker",
+                                    "PartnerAccounts": [],
+                                    "Split": 100
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "00000000-0000-0000-0000-000000000000",
+                            "ProductId": "00001d9a-0000-0000-0000-000000000000",
+                            "ActiveIngredient": null,
+                            "UnitPrice": 0,
+                            "BillingStrategy": 0,
+                            "Name": "Water",
+                            "Density": {
+                                "Density": 8.34,
+                                "Uom": {
+                                    "Ordinal": 62,
+                                    "Name": "Pounds/Gallon",
+                                    "Symbol": "lb/gal",
+                                    "Type": 10
+                                }
+                            },
+                            "PartnerProductId": "",
+                            "PartnerProductName": null,
+                            "ProductType": 0,
+                            "MatterState": 1,
+                            "IsCarrier": true,
+                            "Supplier": {
+                                "Id": "000b78d8-0000-0000-0000-000000000000",
+                                "Name": "Surefire Ag"
+                            },
+                            "Rate": {
+                                "Value": 15,
+                                "Measure": {
+                                    "Ordinal": 19,
+                                    "Name": "Gallons/Acres",
+                                    "Symbol": "gal/ac",
+                                    "Type": 7
+                                }
+                            },
+                            "Pests": []
+                        }
+                    ],
+                    "Rate": {
+                        "Value": 15,
+                        "Measure": {
+                            "Ordinal": 19,
+                            "Name": "Gallons/Acres",
+                            "Symbol": "gal/ac",
+                            "Type": 7
+                        }
+                    },
+                    "IsBlend": false
+                },
+                "Prescription": null
+            }
+        ],
+        "Charges": null,
+        "TargetDate": "2019-07-02T00:00:00",
+        "AppliedWkt": null,
+        "OrderPartners": []
+    }
+]
